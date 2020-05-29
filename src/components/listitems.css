@@ -1,0 +1,43 @@
+.list{
+    width:80%;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    padding: 1vh;
+    display: inline-block;
+    color:#fff;
+    border-radius: 7px;
+    background-color: #75DA8B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text{
+    color: black;
+    width:80%;
+    background: #6ab04c;
+    border-radius: 2px;
+    padding:1vh;
+    margin:5px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-decoration: none;
+}
+.deadline{
+    background-color: #7CEC9F;
+    margin-left: 2vw;
+    padding:4px;
+    border-radius: 4px;
+}
+.check_box{
+    height:3vh;
+    width:3vh;
+    margin:10px;
+    background-color:#fff;
+}
+
+.faiconsMain{
+    margin-right: 2vw;
+     font-size: 3vh; 
+    float:right;
+}
+
+
+

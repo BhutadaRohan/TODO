@@ -1,0 +1,63 @@
+body{
+  background-color: #7CEC9F;
+}
+.App{
+  background-color: #218F76;
+  width:50%;
+  position: relative;
+  min-height: auto;
+  padding: 3% 0px 2% 0px;
+  border: darkblue;
+  border: 2;
+  border-radius: 20px;
+  margin-top:3%;
+  margin-left:25%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+  width:25vw;
+  padding: 2vh;
+  font-size: 3.5vh;
+  margin-left: 23%;
+  color: #218F76;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-weight: bolder;
+  border: cyan;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #2ecc72;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#to-do-form{
+  height:auto;
+  align-self: center;
+}
+.main{
+  background-color: white;
+  border:0;
+  width:80%;
+  height:40px;
+  padding:0% 1%;
+  margin:2%;
+  font-size: 3vh;
+  border-radius: 15px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main ::placeholder{
+  color:white;
+  font-size: 10px;
+}
+.main:focus,#to-do-form button,#dropdown{
+  outline: none;
+}
+.submit-button{
+  margin-top:10px;
+  font-size:8vh;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #2ecc72;
+  background-color:#218F76;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
